@@ -1,0 +1,21 @@
+import Footer from "./Footer";
+import Navbar from "./Navbar";
+
+
+function Layout({ children }) {
+   
+
+    return (
+        <div>
+
+
+            <Navbar></Navbar>
+            {children}
+            <Footer></Footer>
+        </div>
+
+
+    );
+}
+ 
+export default Layout;
