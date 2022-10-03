@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/globals.css'
-import {useEffect} from 'react'
+/*import {useEffect} from 'react' */
 import Layout from './components/Layout';
 
 
